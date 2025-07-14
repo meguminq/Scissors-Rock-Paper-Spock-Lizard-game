@@ -55,6 +55,8 @@ while True:
 
     if user_choise == 'q' or user_choise == 'Q':
         color_print(f"Thanks for playing!\n Score(W/L/D):{wins}/{losses}/{draws}", Fore.CYAN, Style.BRIGHT)
+        color_print("\n Press Enter to exit", Fore.LIGHTWHITE_EX)
+        input()
         break
 
     if user_choise not in options and user_choise != 'q' and user_choise != 'Q':
@@ -75,6 +77,7 @@ while True:
         losses += 1
         color_print(f"{phrase}! You lose!)", Fore.LIGHTRED_EX, Style.BRIGHT)
 
-input("\n Press Enter to exit", Fore.LIGHTWHITE_EX, Style.DIM)
+#color_print("\n Press Enter to exit", Fore.LIGHTWHITE_EX)
+#input() - don't touch! will be needed soonly
 
     
