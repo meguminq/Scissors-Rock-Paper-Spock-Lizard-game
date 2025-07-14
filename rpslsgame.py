@@ -75,6 +75,6 @@ while True:
         losses += 1
         color_print(f"{phrase}! You lose!)", Fore.LIGHTRED_EX, Style.BRIGHT)
 
-
+input("\n Press Enter to exit", Fore.LIGHTWHITE_EX, Style.DIM)
 
     
