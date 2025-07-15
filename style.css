@@ -1,0 +1,10 @@
+body {
+    background-color: #000;
+    color: #0f0;
+    font-family: Comic sans MS, cursive;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px #f00;
+}
