@@ -1,0 +1,5 @@
+CREATE TABLE game_results (
+    id INTEGER PRIMARY KEY,
+    result TEXT,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);

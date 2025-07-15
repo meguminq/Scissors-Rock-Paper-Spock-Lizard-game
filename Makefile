@@ -1,0 +1,2 @@
+run:
+	python rpslsgame.py
